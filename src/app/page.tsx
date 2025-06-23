@@ -52,14 +52,14 @@ export default function Home() {
       >
         <h1 className="text-7xl font-bold">Fan Wang</h1>
         <p className="mt-6 text-xl max-w-2xl text-gray-300">
-          Hi, I'm Fan — a curious builder and creative thinker. I love turning
+          Hi, I&apos;m Fan — a curious builder and creative thinker. I love turning
           ideas into thoughtful digital experiences. With a passion for{' '}
           <span className="text-cyan-400">design</span>,{' '}
           <span className="text-cyan-400">AI</span>, and{' '}
-          <span className="text-cyan-400">storytelling</span>, I'm always
-          exploring how technology can enhance everyday life. Whether I'm
-          building apps, reflecting on the day's thoughts, or diving into a new
-          concept, I'm driven by purpose, simplicity, and a bit of play.
+          <span className="text-cyan-400">storytelling</span>, I&apos;m always
+          exploring how technology can enhance everyday life. Whether I&apos;m
+          building apps, reflecting on the day&apos;s thoughts, or diving into a new
+          concept, I&apos;m driven by purpose, simplicity, and a bit of play.
         </p>
         <a href="#about" className="mt-8 text-lg hover:text-gray-300">
           About Me <ArrowIcon />

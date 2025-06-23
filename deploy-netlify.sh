@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Deploy to Netlify
+echo "Deploying to Netlify..."
+
+# Install Netlify CLI if not installed
+if ! command -v netlify &> /dev/null; then
+    echo "Installing Netlify CLI..."
+    npm install -g netlify-cli
+fi
+
+# Build the project
+npm run build
+
+# Deploy to Netlify
+netlify deploy --prod --dir=out
+
+echo "Deployment complete!" 
